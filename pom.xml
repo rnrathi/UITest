@@ -7,8 +7,8 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<description>UI Tests</description>
 	<properties>
-		<maven.compiler.source>15.0.1</maven.compiler.source>
-		<maven.compiler.target>15.0.1</maven.compiler.target>
+		<maven.compiler.source>15</maven.compiler.source>
+		<maven.compiler.target>15</maven.compiler.target>
 	</properties>
 	<dependencyManagement>
 		<dependencies>
@@ -17,7 +17,7 @@
 				<groupId>org.junit.jupiter</groupId>
 				<artifactId>junit-jupiter-api</artifactId>
 				<version>5.10.2</version>
-				<!-- <scope>test</scope> -->
+				<scope>test</scope>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 			<dependency>
@@ -29,7 +29,7 @@
 		</dependencies>
 	</dependencyManagement>
 
-	<build>
+<!-- 	<build>
 		<pluginManagement>
 			<plugins>
 				<plugin>
@@ -40,6 +40,6 @@
 			</plugins>
 		</pluginManagement>
 
-	</build>
+	</build> -->
 
 </project>
